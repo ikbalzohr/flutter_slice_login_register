@@ -17,9 +17,7 @@ class BackgroundScreen extends StatelessWidget {
               fit: BoxFit.cover,
               child: Stack(
                 children: [
-                  Image.asset(
-                    'assets/images/background.png',
-                  ),
+                  Image.asset('assets/images/background.png'),
                   Image.asset("assets/images/object.png")
                 ],
               )),
