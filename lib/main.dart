@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_slice_login_register/pages/login_page.dart';
-import 'package:flutter_slice_login_register/pages/register_page.dart';
+import 'package:flutter_slice_login_register/pages/login_page.dart';
+// import 'package:flutter_slice_login_register/pages/register_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const RegisterPage(),
+      // home: const RegisterPage(),
+      home: const LoginPage(),
     );
   }
 }
